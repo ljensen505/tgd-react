@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica&family=Nunito+Sans&display=swap");
+
+:root {
+  --jonquil: #ecc30b;
+  --coral: #f37748;
+  --indian-red: #d56062;
+  --space-cadet: #1c1f33;
+  --tiffany-blue: #8bd7d2;
+}
+
+body {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=ecc30b&c2=f7954f&gt=r&gd=dcc
+*/
+  background: var(--jonquil);
+  background: radial-gradient(at center, var(--jonquil), var(--coral));
+  font-family: "Geologica", sans-serif;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#about {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.modal-content {
+  background-color: var(--tiffany-blue);
+}
+
+.form-control {
+  background-color: #dafffd;
+}
+
+.dropdown-menu {
+  background-color: var(--tiffany-blue);
+}
+
+.dropdown-item:hover {
+  background-color: #58c3bb;
+}
+
+.modal-error {
+  background-color: rgb(255, 72, 72);
+  color: rgb(113, 1, 1);
+  border: 1px solid rgb(113, 1, 1);
+}
+
+.card {
+  box-shadow: 0px 0px 10px 2px rgba(110, 110, 110, 0.75);
+  background-color: var(--jonquil);
+  border-radius: 35px;
+}
+
+.img-thumbnail {
+  background-color: var(--tiffany-blue);
+  border: none;
+  border-radius: inherit;
+  padding: 10px;
+}
+
+.navbar {
+  box-shadow: 0px 0px 5px 1px rgba(110, 110, 110, 0.75);
+  background-image: linear-gradient(
+    180deg,
+    hsl(359deg 58% 61%) 39%,
+    hsl(353deg 51% 57%) 75%,
+    hsl(347deg 44% 53%) 87%,
+    hsl(341deg 39% 49%) 93%,
+    hsl(336deg 38% 45%) 97%,
+    hsl(329deg 36% 41%) 99%,
+    hsl(322deg 33% 37%) 101%,
+    hsl(312deg 30% 33%) 101%,
+    hsl(300deg 26% 29%) 102%,
+    hsl(285deg 26% 27%) 102%,
+    hsl(271deg 26% 25%) 101%,
+    hsl(258deg 26% 22%) 101%,
+    hsl(245deg 25% 19%) 100%,
+    hsl(232deg 29% 15%) 100%
+  );
+}
